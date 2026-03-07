@@ -74,8 +74,6 @@ The hierarchical disentangled architecture significantly improves over single en
 ## UMAP Representation
 ![UMAP](Plots/umap_embeddings/umap_test_z_sem_large.png)
 
-## CKA Subspace Disentanglement
-![CKA](Plots/disentanglement/cka_subspace_matrix.png)
 
 These plots illustrate
 
