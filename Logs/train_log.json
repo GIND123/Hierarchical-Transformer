@@ -1,0 +1,73 @@
+{
+  "cfg": {
+    "data_root": "/mnt/heirarchy/data_stage1",
+    "out_root": "/mnt/heirarchy/models_stage2_hier",
+    "seed": 42,
+    "enc_a": "microsoft/deberta-v3-base",
+    "enc_b": "roberta-base",
+    "max_len": 128,
+    "device": "cuda",
+    "epochs": 3,
+    "lr_enc": 2e-06,
+    "lr_head": 1e-05,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "batch_size_start": 192,
+    "num_workers": 8,
+    "pin_memory": true,
+    "persistent_workers": true,
+    "grad_accum": 2,
+    "use_compile": true,
+    "allow_tf32": true,
+    "d_lex": 256,
+    "d_syn": 256,
+    "d_sem": 256,
+    "main_w": 0.6,
+    "aux_w": 0.4,
+    "ortho_lambda": 0.02,
+    "simplex_lambda": 0.01,
+    "patience": 2,
+    "eval_every_steps": 0,
+    "threshold": 0.5,
+    "save_best_name": "best_model.pt",
+    "save_last_name": "last_model.pt",
+    "log_name": "train_log.json"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "val": {
+        "f1": 0.9745325155206092,
+        "acc": 0.9658833333333333,
+        "auc": 0.99490200515625,
+        "mcc": 0.9229671603578726
+      }
+    },
+    {
+      "epoch": 2,
+      "val": {
+        "f1": 0.9812026792730538,
+        "acc": 0.9748833333333333,
+        "auc": 0.99698151875,
+        "mcc": 0.9433859252521801
+      }
+    },
+    {
+      "epoch": 3,
+      "val": {
+        "f1": 0.9842343183771062,
+        "acc": 0.9789,
+        "auc": 0.9976981628125001,
+        "mcc": 0.9524068337683136
+      }
+    },
+    {
+      "test": {
+        "f1": 0.9846328260774775,
+        "acc": 0.9794416666666667,
+        "auc": 0.99779993109375,
+        "mcc": 0.9536366467309908
+      }
+    }
+  ]
+}

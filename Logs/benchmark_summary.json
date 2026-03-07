@@ -1,0 +1,90 @@
+{
+  "total_samples": 60,
+  "llms": [
+    "Claude Haiku 3.5",
+    "Claude Opus",
+    "Claude Sonnet 4.5",
+    "Gpt 5",
+    "Grok 4",
+    "Llama 4"
+  ],
+  "source_texts": 11,
+  "overall_detection_rate": 1.0,
+  "overall_meta_confidence": 0.999950647354126,
+  "per_llm_meta_confidence": {
+    "Claude Haiku 3.5": 1.0,
+    "Claude Opus": 1.0,
+    "Claude Sonnet 4.5": 0.9999,
+    "Gpt 5": 0.9999,
+    "Grok 4": 0.9999,
+    "Llama 4": 1.0
+  },
+  "per_llm_weakest_head": {
+    "Claude Haiku 3.5": "semantic",
+    "Claude Opus": "semantic",
+    "Claude Sonnet 4.5": "semantic",
+    "Gpt 5": "semantic",
+    "Grok 4": "semantic",
+    "Llama 4": "semantic"
+  },
+  "paraphrase_style_characterization": {
+    "Claude Haiku 3.5": {
+      "style": "heavy_lexical_rewrite",
+      "novel_word_ratio": 0.5664,
+      "edit_distance": 0.7534,
+      "jaccard": 0.2475
+    },
+    "Claude Opus": {
+      "style": "heavy_lexical_rewrite",
+      "novel_word_ratio": 0.4112,
+      "edit_distance": 0.5733,
+      "jaccard": 0.3901
+    },
+    "Claude Sonnet 4.5": {
+      "style": "structural_restructuring",
+      "novel_word_ratio": 0.328,
+      "edit_distance": 0.5031,
+      "jaccard": 0.4744
+    },
+    "Gpt 5": {
+      "style": "moderate_paraphrase",
+      "novel_word_ratio": 0.2846,
+      "edit_distance": 0.4718,
+      "jaccard": 0.5014
+    },
+    "Grok 4": {
+      "style": "structural_restructuring",
+      "novel_word_ratio": 0.3977,
+      "edit_distance": 0.5691,
+      "jaccard": 0.3697
+    },
+    "Llama 4": {
+      "style": "structural_restructuring",
+      "novel_word_ratio": 0.3609,
+      "edit_distance": 0.5627,
+      "jaccard": 0.4054
+    }
+  },
+  "files": {
+    "tables": [
+      "combined_profile_per_llm.csv",
+      "correlation_surface_vs_model.csv",
+      "head_profile_per_llm.csv",
+      "llm_paraphrases_annotated.csv",
+      "per_source_difficulty.csv",
+      "surface_metrics_all.csv",
+      "surface_metrics_per_llm.csv",
+      "weakest_level_distribution.csv"
+    ],
+    "plots": [
+      "correlation_heatmap.png",
+      "head_scores_per_llm.png",
+      "heatmap_head_x_llm.png",
+      "model_comparison_per_llm.png",
+      "radar_per_llm.png",
+      "scatter_jaccard_vs_semantic.png",
+      "surface_metrics_per_llm.png",
+      "violin_confidence_per_llm.png"
+    ]
+  }
+}

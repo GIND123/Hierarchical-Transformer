@@ -1,0 +1,20 @@
+{
+  "z_lex_vs_lexical_overlap_spearman": 0.47922946593127974,
+  "z_lex_vs_lexical_overlap_pval": 0.0,
+  "z_lex_vs_length_ratio_spearman": 0.4421186338704228,
+  "z_lex_vs_length_ratio_pval": 0.0,
+  "z_syn_vs_lexical_overlap_spearman": 0.532769976054425,
+  "z_syn_vs_lexical_overlap_pval": 0.0,
+  "z_syn_vs_length_ratio_spearman": 0.4493643625740219,
+  "z_syn_vs_length_ratio_pval": 0.0,
+  "z_sem_vs_lexical_overlap_spearman": 0.22826571007995736,
+  "z_sem_vs_lexical_overlap_pval": 1.0401520845752815e-234,
+  "z_sem_vs_length_ratio_spearman": 0.3032353994433464,
+  "z_sem_vs_length_ratio_pval": 0.0,
+  "z_lex_probe_acc": 0.9825,
+  "z_lex_probe_f1": 0.9868421052631579,
+  "z_syn_probe_acc": 0.9825,
+  "z_syn_probe_f1": 0.9868371568258744,
+  "z_sem_probe_acc": 0.9815,
+  "z_sem_probe_f1": 0.9860902255639098
+}

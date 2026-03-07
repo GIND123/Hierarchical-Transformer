@@ -1,0 +1,10 @@
+{
+  "mean_neg_prob": 0.0478537417948246,
+  "mean_pos_prob": 0.9809612035751343,
+  "median_neg_prob": 0.0005981811555102468,
+  "median_pos_prob": 0.9998568296432495,
+  "ks_statistic": 0.95595,
+  "ks_p_value": 0.0,
+  "noise_mean_acc": 0.9794144999999999,
+  "noise_std_acc": 6.590839602560282e-05
+}

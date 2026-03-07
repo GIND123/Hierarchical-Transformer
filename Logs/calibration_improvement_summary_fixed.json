@@ -1,0 +1,12 @@
+{
+  "temperature": 1.1592621803283691,
+  "ECE_val_cal": 0.004799850522385315,
+  "ECE_test_cal": 0.004461712711801153,
+  "best_threshold_calibrated": 0.56,
+  "test_metrics_calibrated_tuned": {
+    "F1": 0.9846077055061613,
+    "Accuracy": 0.9794416666666667,
+    "Precision": 0.9829212083463096,
+    "Recall": 0.9863
+  }
+}

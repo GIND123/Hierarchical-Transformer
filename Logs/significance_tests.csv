@@ -1,0 +1,4 @@
+Comparison,Delta_F1,p_value,Significant_005
+Main_Hier vs DeBERTa_single,0.01844552680940592,0.0,True
+Main_Hier vs RoBERTa_single,0.022680555168502203,0.0,True
+Main_Hier vs Fusion_NoDis,0.013074139064327972,0.0,True

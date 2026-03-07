@@ -1,0 +1,37 @@
+Evaluator_Model,Generator_LLM,Recall_Detection_Rate,Mean_Confidence
+Main_Hier,Claude Haiku 3.5,1.0,0.9999719858169556
+Main_Hier,Claude Opus,1.0,0.9999507665634155
+Main_Hier,Claude Sonnet 4.5,1.0,0.9999481439590454
+Main_Hier,Gpt 5,1.0,0.999935507774353
+Main_Hier,Grok 4,1.0,0.9999352693557739
+Main_Hier,Llama 4,1.0,0.9999626278877258
+DeBERTa_Single,Claude Haiku 3.5,1.0,0.9999567270278931
+DeBERTa_Single,Claude Opus,1.0,0.9999545812606812
+DeBERTa_Single,Claude Sonnet 4.5,1.0,0.9999490976333618
+DeBERTa_Single,Gpt 5,1.0,0.999960720539093
+DeBERTa_Single,Grok 4,1.0,0.9999508857727051
+DeBERTa_Single,Llama 4,1.0,0.9999526739120483
+RoBERTa_Single,Claude Haiku 3.5,1.0,0.8706628084182739
+RoBERTa_Single,Claude Opus,1.0,0.8086847066879272
+RoBERTa_Single,Claude Sonnet 4.5,1.0,0.7935842275619507
+RoBERTa_Single,Gpt 5,1.0,0.790298581123352
+RoBERTa_Single,Grok 4,1.0,0.8576690554618835
+RoBERTa_Single,Llama 4,1.0,0.8422956466674805
+Fusion_NoDisentangle,Claude Haiku 3.5,1.0,0.9995506405830383
+Fusion_NoDisentangle,Claude Opus,1.0,0.9996359944343567
+Fusion_NoDisentangle,Claude Sonnet 4.5,1.0,0.9996067881584167
+Fusion_NoDisentangle,Gpt 5,1.0,0.9996180534362793
+Fusion_NoDisentangle,Grok 4,1.0,0.9996291995048523
+Fusion_NoDisentangle,Llama 4,1.0,0.9996486902236938
+Ablation_w050_050,Claude Haiku 3.5,1.0,0.9999241828918457
+Ablation_w050_050,Claude Opus,1.0,0.9998364448547363
+Ablation_w050_050,Claude Sonnet 4.5,1.0,0.9998245239257812
+Ablation_w050_050,Gpt 5,1.0,0.9997270703315735
+Ablation_w050_050,Grok 4,1.0,0.9997703433036804
+Ablation_w050_050,Llama 4,1.0,0.999880313873291
+Ablation_no_aux,Claude Haiku 3.5,1.0,0.9999264478683472
+Ablation_no_aux,Claude Opus,1.0,0.9998310208320618
+Ablation_no_aux,Claude Sonnet 4.5,1.0,0.9998253583908081
+Ablation_no_aux,Gpt 5,1.0,0.9996639490127563
+Ablation_no_aux,Grok 4,1.0,0.9997631907463074
+Ablation_no_aux,Llama 4,1.0,0.9998739361763
