@@ -100,15 +100,7 @@ Total paraphrase samples: 60
 
 ---
 
-## Detection Performance
 
-Overall detection rate:
-
-**100 percent**
-
-Average confidence:
-
-**1.0000**
 
 All LLM paraphrases were correctly identified.
 
